@@ -111,7 +111,7 @@ span{
 }
 
 .profile-photo img{
-    width: 200%;
+    width: 80%;
     height: auto;
     border-radius: 50% 20%;
     transition: all;
