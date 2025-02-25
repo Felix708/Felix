@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Parkinsans";
-    list-style-type: none;
+    /* list-style-type: none; */
     scroll-behavior: smooth;
 }
 
@@ -18,10 +18,12 @@ nav{
     align-items: center;
     background-color: gray;
     padding: 1rem;
+    /* list-style-type: none; */
 }
 
 .navlist{
     display: flex;
+    list-style-type: none;
 }
 
 #logo{
@@ -187,6 +189,24 @@ span{
     color: rgb(41, 41, 221);
 }
 
+.content-btn{
+    background-color: rgb(13, 13, 160);
+    padding: 15px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 20% 35%;
+    font-size: 25px;
+}
+
+.content-btn a{
+    text-decoration: none;
+    color: rgb(149, 146, 146);
+}
+
+.content-btn button:hover{
+    transform: scale(1.05);
+}
+
 /* services */
 
 .title{
@@ -242,6 +262,22 @@ span{
 
 .dampak-list{
     list-style-type: disc;
+}
+
+/* Sejarah Page */
+.box-container-sjrh{
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-container-sjrh p ul li{
+    font-size: 20px;
 }
 
 /* footer */
