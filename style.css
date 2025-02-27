@@ -276,8 +276,29 @@ span{
     margin-bottom: 20px;
 }
 
+.box-container-sjrh p {
+    font-size: 18px;
+    margin: 10px;
+}
+
 .box-container-sjrh p ul li{
     font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.box-container-sjrh img{
+    width: 500px;
+    height: 200px;
+    margin-left: 150px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.sumberlink{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
